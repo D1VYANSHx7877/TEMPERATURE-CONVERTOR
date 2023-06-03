@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(rgba(4, 30, 12, 0.7), rgba(4, 30, 12, 0.7)),
+    url(temp_image.jpg) center/cover;
+  position: relative;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+.container {
+  background: rgba(252, 252, 252, 0.8);
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: orangered;
+}
+
+.input-group {
+  color: orangered;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #25ad0d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1e1e;
+}
+
+#result {
+  color: orangered;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
